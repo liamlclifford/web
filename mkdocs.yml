@@ -1,0 +1,32 @@
+site_name: Gateway Adventure APP
+site_url: https://gatewayadventureapp.github.io
+
+theme:
+  name: material
+  logo: images/logo.png
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  font:
+    text: Lora
+    code: Roboto Mono
+extra_css:
+  - styles/extra.css
+  - styles/toc-only.css
+  - styles/custom.css
+markdown_extensions:
+  - pymdownx.extra
+
+
+extra_javascript:
+  - javascripts/replace-terms.js
+use_directory_urls: false
+
+
+nav:
+  - Home: home.md
+  - About: about.md
+  - contact: contact.md
+  - Privacy Policy: privacy-policy.md
+  - Download: download.md

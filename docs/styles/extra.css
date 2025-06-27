@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lora&display=swap');
+
+/* Theme color palette */
+:root {
+  --md-primary-fg-color:#112a35 ; /* soft light blue accent */
+  --md-accent-fg-color: #ffffff;
+  --md-default-bg-color: #aadd00;
+  --md-text-color: #495703;
+}
+
+/* Main font */
+body, .md-typeset {
+  font-family: 'Lora', serif;
+}
+
+/* Background: wood texture */
+body {
+  background: url('../images/background.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Remove white gradient background behind "Re-Quest RuleBook" site title */
+.md-nav__title {
+  background:  #4488a82f;
+  box-shadow: none !important;
+}
+
+/* Soft glowing title */
+.md-header__title {
+  color: #ffffff !important; /* light cyan/sky blue */
+
+}
+
+/* Dark header/nav bar */
+.md-header {
+  background-color: #4488a82f;
+}
+
+/* Logo size */
+.md-header__button.md-logo img {
+  max-height: 3rem;
+  margin-right: 0.5rem;
+}
+
+/* Mobile Table of Contents background and text colors */
+@media (max-width: 768px) {
+  .md-nav, 
+  .md-nav__list, 
+  .md-sidebar {
+    background-color: #112a352f !important;
+    color: #ffffff !important;
+     
+  }
+
+  .md-nav a, 
+  .md-nav__link {
+    color: #ffffff !important;
+  }
+}

@@ -1,0 +1,7 @@
+.toc-only {
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
