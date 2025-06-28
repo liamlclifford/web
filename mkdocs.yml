@@ -26,6 +26,7 @@ use_directory_urls: false
 
 nav:
   - Home: home.md
+  - About: about.md
   - Contact: contact.md
   - Privacy Policy: privacy-policy.md
   - Download: download.md
