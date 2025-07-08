@@ -41,7 +41,7 @@ body {
 
 /* Remove white gradient background behind "Re-Quest RuleBook" site title */
 .md-nav__title {
-  background:  #4488a82f;
+  background:  #4488a8b7;
   box-shadow: none !important;
 }
 
@@ -53,7 +53,7 @@ body {
 
 /* Dark header/nav bar */
 .md-header {
-  background-color: #4488a82f;
+  background-color: #264f62f6; /top main header
 }
 
 /* Logo size */
