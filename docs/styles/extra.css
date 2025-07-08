@@ -11,6 +11,20 @@
 }
 
 
+.badge-container {
+  background-color: var(--badge-box-bg);
+  padding: 40px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+
 /* Main font and text color */
 body, .md-typeset {
   font-family: 'Lora', serif;

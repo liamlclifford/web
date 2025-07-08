@@ -2,6 +2,7 @@ site_name: Gateway Adventure APP
 site_url: https://gatewayadventureapp.github.io
 
 theme:
+  favicon: images/favicon.png
   name: material
   logo: images/logo.png
   palette:
@@ -11,18 +12,21 @@ theme:
   font:
     text: Lora
     code: Roboto Mono
+
 extra_css:
   - styles/extra.css
   - styles/toc-only.css
   - styles/custom.css
-markdown_extensions:
-  - pymdownx.extra
-
 
 extra_javascript:
   - javascripts/replace-terms.js
-use_directory_urls: false
 
+
+
+markdown_extensions:
+  - pymdownx.extra
+
+use_directory_urls: false
 
 nav:
   - Home: index.md
