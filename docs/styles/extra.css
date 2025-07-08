@@ -6,12 +6,32 @@
   --md-accent-fg-color: #ffffff;
   --md-default-bg-color: #aadd00;
   --md-text-color: #495703;
+  --badge-box-bg: #264d5fe4;  /* matches .md-header background */
+
 }
 
-/* Main font */
+
+/* Main font and text color */
 body, .md-typeset {
   font-family: 'Lora', serif;
+  color: #ffffff;
 }
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6,
+.md-typeset p,
+.md-typeset li,
+.md-typeset a {
+  color: #ffffff;
+  font-family: 'Lora', serif;
+}
+
+
+
 
 /* Background: wood texture */
 body {
