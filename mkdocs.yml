@@ -17,10 +17,13 @@ extra_css:
   - styles/extra.css
   - styles/toc-only.css
   - styles/custom.css
+  - https://unpkg.com/flickity@2/dist/flickity.min.css
 
 extra_javascript:
   - javascripts/replace-terms.js
+  - https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js
 
+  
 
 
 markdown_extensions:
@@ -30,6 +33,8 @@ use_directory_urls: false
 
 nav:
   - Home: index.md
-  - Contact: contact.md
+  - About: about.md
+  - Contact & Links: contact.md
   - Privacy Policy: privacy-policy.md
   - Download: download.md
+  
