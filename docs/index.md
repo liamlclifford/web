@@ -6,14 +6,14 @@ This app is designed to give your spirit of adventure, a direction to run in. Wi
 <div>
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <a href="images/gallery/image1.png">
-    <img src="images/gallery/image1.png" alt="Gallery Image 1" style="width: 200px;" />
+  <a href="images/gallery/image1.PNG">
+    <img src="images/gallery/image1.PNG" alt="Gallery Image 1" style="width: 200px;" />
   </a>
-  <a href="images/gallery/image2.png">
-    <img src="images/gallery/image2.png" alt="Gallery Image 2" style="width: 200px;" />
+  <a href="images/gallery/image2.PNG">
+    <img src="images/gallery/image2.PNG" alt="Gallery Image 2" style="width: 200px;" />
   </a>
-  <a href="images/gallery/image3.png">
-    <img src="images/gallery/image3.png" alt="Gallery Image 3" style="width: 200px;" />
+  <a href="images/gallery/image3.PGN">
+    <img src="images/gallery/image3.PNG" alt="Gallery Image 3" style="width: 200px;" />
   </a>
 </div> 
 
