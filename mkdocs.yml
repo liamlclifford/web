@@ -1,5 +1,5 @@
 site_name: Gateway Adventure APP
-site_url: https://gatewayadventureapp.github.io
+site_url: https://gatewayadventureapp
 
 theme:
   favicon: images/favicon.png
@@ -17,11 +17,13 @@ extra_css:
   - styles/extra.css
   - styles/toc-only.css
   - styles/custom.css
-  - https://unpkg.com/flickity@2/dist/flickity.min.css
+  - styles/flickity.min.css
+
+
 
 extra_javascript:
   - javascripts/replace-terms.js
-  - https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js
+  - javascripts/flickity.pkgd.min.js
 
   
 
